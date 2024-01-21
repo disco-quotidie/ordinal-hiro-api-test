@@ -1,0 +1,26 @@
+export interface InscriptionType {
+  address: string,
+  content_length: number,
+  content_type: string,
+  curse_type: any,
+  genesis_address: string,
+  genesis_block_hash: string,
+  genesis_block_height: number,
+  genesis_fee: number,
+  genesis_timestamp: number,
+  genesis_tx_id: string,
+  id: string,
+  location: string,
+  mime_type: string,
+  number: number,
+  offset: string,
+  output: string,
+  recursion_refs: any,
+  recursive: any
+  sat_coinbase_height: number,
+  sat_ordinal: string,
+  sat_rarity: string,
+  timestamp: number,
+  tx_id: string,
+  value: string
+}
